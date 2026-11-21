@@ -51,3 +51,23 @@ O ESP32 publicou uma mensagem e permaneceu inscrito no mesmo tópico, permitindo
 | Proximidade crítica | 187,321 ms | 201,806 ms | 170,525 ms | 169,122 ms | 182,19 ms |
 
 As mensagens de distância e estado também foram recebidas por um cliente MQTTX conectado ao broker público HiveMQ.
+
+## Gráficos dos resultados
+
+### Sensor HC-SR04
+
+![Gráfico do sensor HC-SR04](imagens/grafico_hcsr04.png)
+
+### Atuadores
+
+![Gráfico dos tempos dos atuadores](imagens/grafico_tempo_atuadores.png)
+
+### Comunicação MQTT
+
+![Gráfico do tempo de comunicação MQTT](imagens/grafico_tempo_mqtt.png)
+
+## Dados consolidados
+
+Os dados consolidados utilizados na análise também estão disponíveis em:
+
+[Resultados consolidados em CSV](Resultados_consolidados_do_prot_tipo.csv)
