@@ -1,0 +1,4 @@
+Condição,Distância (cm),LED médio (µs),Buzzer médio (µs),MQTT ida e volta médio (ms)
+Normal,153.08,14.0,,172.68925
+Atenção,82.07,13.0,932.0,174.81625
+Proximidade crítica,31.4,14.0,886.0,182.1935
