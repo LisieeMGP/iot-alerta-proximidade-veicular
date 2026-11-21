@@ -71,3 +71,83 @@ As mensagens de distância e estado também foram recebidas por um cliente MQTTX
 Os dados consolidados utilizados na análise também estão disponíveis em:
 
 [Resultados consolidados em CSV](Resultados_consolidados_do_prot_tipo.csv)
+
+## Evidências visuais
+
+### Componentes e montagem
+
+#### ESP32
+
+![ESP32 DevKit](imagens/esp32-devkit.png)
+
+#### Sensor HC-SR04
+
+![Sensor HC-SR04](imagens/sensor-hcsr04.png)
+
+#### LEDs de alerta
+
+![LEDs de alerta](imagens/leds-alerta.png)
+
+#### Buzzer piezoelétrico
+
+![Buzzer piezoelétrico](imagens/buzzer-piezoeletrico.png)
+
+#### Protoboard
+
+![Protoboard](imagens/protoboard.jpg)
+
+#### Cabos jumper
+
+![Cabos jumper](imagens/cabos-jumper.jpg)
+
+#### Resistores
+
+![Resistores](imagens/resistores.png)
+
+### Montagem e funcionamento
+
+#### Montagem do protótipo no Wokwi
+
+![Montagem do protótipo no Wokwi](imagens/montagem-prototipo-wokwi.png)
+
+#### Fluxograma de funcionamento
+
+![Fluxograma de funcionamento](imagens/fluxograma-funcionamento.png)
+
+#### Condição normal
+
+![Protótipo em condição normal](imagens/wokwi-condicao-normal.png)
+
+#### Condição de atenção
+
+![Protótipo em condição de atenção](imagens/wokwi-condicao-atencao.png)
+
+#### Condição de proximidade crítica
+
+![Protótipo em condição de proximidade crítica](imagens/wokwi-proximidade-critica.png)
+
+### Comunicação MQTT
+
+A comunicação MQTT foi validada utilizando o cliente MQTTX conectado ao broker público HiveMQ.
+
+![Recebimento das mensagens no MQTTX](imagens/mqttx-recebimento-mensagens.png)
+
+## Gráficos dos resultados
+
+### Sensor HC-SR04
+
+![Gráfico do sensor HC-SR04](imagens/grafico_hcsr04.png)
+
+### Atuadores
+
+![Gráfico dos tempos dos atuadores](imagens/grafico_tempo_atuadores.png)
+
+### Comunicação MQTT
+
+![Gráfico do tempo de comunicação MQTT](imagens/grafico_tempo_mqtt.png)
+
+## Dados consolidados
+
+Os dados consolidados utilizados na análise estão disponíveis em:
+
+[Resultados consolidados em CSV](Resultados_consolidados_do_prot_tipo.csv)
