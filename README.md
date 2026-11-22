@@ -185,10 +185,28 @@ As faixas utilizadas são exclusivamente demonstrativas e não devem ser interpr
 
 O sistema também foi desenvolvido em ambiente de simulação e utiliza um broker MQTT público, podendo apresentar variações nos tempos de comunicação.
 
+## Resultados
+
+Os resultados completos dos testes, incluindo medições do sensor HC-SR04, tempos de execução dos atuadores, comunicação MQTT, gráficos e evidências visuais, estão disponíveis em:
+
+[Documentação dos testes e resultados](resultados/testes.md)
+
+Os dados consolidados também estão disponíveis em formato CSV:
+
+[Resultados consolidados em CSV](resultados/Resultados_consolidados_do_prot_tipo.csv)
+
 ## Arquivos do repositório
 
-`README.md` — documentação do projeto.
+## Arquivos do repositório
+
+`README.md` — documentação geral do projeto.
 
 `sketch.ino` — código-fonte do ESP32.
 
 `diagram.json` — representação do circuito utilizado no Wokwi.
+
+`resultados/testes.md` — documentação detalhada dos testes, medições, gráficos e evidências visuais.
+
+`resultados/Resultados_consolidados_do_prot_tipo.csv` — dados consolidados dos testes.
+
+`resultados/imagens/` — imagens, capturas de tela e gráficos do projeto.
