@@ -197,8 +197,6 @@ Os dados consolidados também estão disponíveis em formato CSV:
 
 ## Arquivos do repositório
 
-## Arquivos do repositório
-
 `README.md` — documentação geral do projeto.
 
 `sketch.ino` — código-fonte do ESP32.
